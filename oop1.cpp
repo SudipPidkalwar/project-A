@@ -9,7 +9,7 @@ class employee
 
     public:
            int d,e;
-           void setData(int a1, int b1, int c1);
+           void setData(int a2, int b2, int c2);
             void getData()
             {
              cout<<"The value of a is"<<a<<endl;
@@ -22,9 +22,9 @@ class employee
 
 void employee :: setData(int a1, int b1, int c1){
     
-        a=a1;
-        b=b1;
-        c=c1;
+        a=a2;
+        b=b2;
+        c=c2;
 }
 
 
